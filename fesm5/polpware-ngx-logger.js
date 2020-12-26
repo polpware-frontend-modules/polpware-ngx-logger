@@ -1,5 +1,7 @@
-import { ɵɵdefineInjectable, ɵsetClassMetadata, Injectable } from '@angular/core';
-
+/**
+ * We on purpose do not make this class to have a root provider.
+ * So that the application feels free to set up it.
+ */
 var NgxLoggerImpl = /** @class */ (function () {
     function NgxLoggerImpl() {
     }
@@ -45,16 +47,8 @@ var NgxLoggerImpl = /** @class */ (function () {
             additional[_i - 1] = arguments[_i];
         }
     };
-    NgxLoggerImpl.ɵfac = function NgxLoggerImpl_Factory(t) { return new (t || NgxLoggerImpl)(); };
-    NgxLoggerImpl.ɵprov = ɵɵdefineInjectable({ token: NgxLoggerImpl, factory: NgxLoggerImpl.ɵfac, providedIn: 'root' });
     return NgxLoggerImpl;
 }());
-/*@__PURE__*/ (function () { ɵsetClassMetadata(NgxLoggerImpl, [{
-        type: Injectable,
-        args: [{
-                providedIn: 'root'
-            }]
-    }], null, null); })();
 
 /*
  * Public API Surface of ngx-logger

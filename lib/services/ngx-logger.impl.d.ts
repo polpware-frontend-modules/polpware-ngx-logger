@@ -1,5 +1,8 @@
 import { INgxLogger } from '../interfaces/ngx-logger.interface';
-import * as i0 from "@angular/core";
+/**
+ * We on purpose do not make this class to have a root provider.
+ * So that the application feels free to set up it.
+ */
 export declare class NgxLoggerImpl implements INgxLogger {
     trace(message: any, ...additional: any[]): void;
     debug(message: any, ...additional: any[]): void;
@@ -8,6 +11,4 @@ export declare class NgxLoggerImpl implements INgxLogger {
     warn(message: any, ...additional: any[]): void;
     error(message: any, ...additional: any[]): void;
     fatal(message: any, ...additional: any[]): void;
-    static ɵfac: i0.ɵɵFactoryDef<NgxLoggerImpl, never>;
-    static ɵprov: i0.ɵɵInjectableDef<NgxLoggerImpl>;
 }

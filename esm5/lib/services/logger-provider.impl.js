@@ -1,0 +1,16 @@
+import { NgxLoggerImpl } from './ngx-logger.impl';
+/**
+ * We on purpose do not make this class to have a root provider.
+ * So that the application feels free to set up it.
+ */
+var LoggerProviderImpl = /** @class */ (function () {
+    function LoggerProviderImpl() {
+        this.defaultImpl = new NgxLoggerImpl();
+    }
+    LoggerProviderImpl.prototype.logger = function (k) {
+        return this.defaultImpl;
+    };
+    return LoggerProviderImpl;
+}());
+export { LoggerProviderImpl };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibG9nZ2VyLXByb3ZpZGVyLmltcGwuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9AcG9scHdhcmUvbmd4LWxvZ2dlci8iLCJzb3VyY2VzIjpbImxpYi9zZXJ2aWNlcy9sb2dnZXItcHJvdmlkZXIuaW1wbC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQSxPQUFPLEVBQUUsYUFBYSxFQUFFLE1BQU0sbUJBQW1CLENBQUM7QUFFbEQ7OztHQUdHO0FBQ0g7SUFBQTtRQUNJLGdCQUFXLEdBQUcsSUFBSSxhQUFhLEVBQUUsQ0FBQztJQUt0QyxDQUFDO0lBSEcsbUNBQU0sR0FBTixVQUFPLENBQVM7UUFDWixPQUFPLElBQUksQ0FBQyxXQUFXLENBQUM7SUFDNUIsQ0FBQztJQUNMLHlCQUFDO0FBQUQsQ0FBQyxBQU5ELElBTUMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBJTmd4TG9nZ2VyIH0gZnJvbSAnLi4vaW50ZXJmYWNlcy9uZ3gtbG9nZ2VyLmludGVyZmFjZSc7XG5pbXBvcnQgeyBJTG9nZ2VyUHJvdmlkZXIgfSBmcm9tICcuLi9pbnRlcmZhY2VzL2xvZ2dlci1wcm92aWRlci5pbnRlcmZhY2UnO1xuaW1wb3J0IHsgTmd4TG9nZ2VySW1wbCB9IGZyb20gJy4vbmd4LWxvZ2dlci5pbXBsJztcblxuLyoqXG4gKiBXZSBvbiBwdXJwb3NlIGRvIG5vdCBtYWtlIHRoaXMgY2xhc3MgdG8gaGF2ZSBhIHJvb3QgcHJvdmlkZXIuIFxuICogU28gdGhhdCB0aGUgYXBwbGljYXRpb24gZmVlbHMgZnJlZSB0byBzZXQgdXAgaXQuIFxuICovXG5leHBvcnQgY2xhc3MgTG9nZ2VyUHJvdmlkZXJJbXBsIGltcGxlbWVudHMgSUxvZ2dlclByb3ZpZGVyIHtcbiAgICBkZWZhdWx0SW1wbCA9IG5ldyBOZ3hMb2dnZXJJbXBsKCk7XG5cbiAgICBsb2dnZXIoazogc3RyaW5nKSB7XG4gICAgICAgIHJldHVybiB0aGlzLmRlZmF1bHRJbXBsO1xuICAgIH1cbn1cbiJdfQ==

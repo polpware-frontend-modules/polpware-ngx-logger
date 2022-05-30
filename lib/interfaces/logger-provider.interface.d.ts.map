@@ -1,0 +1,1 @@
+{"version":3,"file":"logger-provider.interface.d.ts","sourceRoot":"","sources":["../../../../../projects/polpware/ngx-logger/src/lib/interfaces/logger-provider.interface.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,wBAAwB,CAAC;AAEpD;;GAEG;AACH,MAAM,WAAW,eAAe;IAC5B,MAAM,CAAC,CAAC,EAAE,MAAM,GAAG,UAAU,CAAC;CACjC"}

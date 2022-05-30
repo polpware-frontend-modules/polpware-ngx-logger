@@ -5,3 +5,4 @@ import { INgxLogger } from './ngx-logger.interface';
 export interface ILoggerProvider {
     logger(k: string): INgxLogger;
 }
+//# sourceMappingURL=logger-provider.interface.d.ts.map

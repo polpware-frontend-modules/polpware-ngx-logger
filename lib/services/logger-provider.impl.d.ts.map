@@ -1,0 +1,1 @@
+{"version":3,"file":"logger-provider.impl.d.ts","sourceRoot":"","sources":["../../../../../projects/polpware/ngx-logger/src/lib/services/logger-provider.impl.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,eAAe,EAAE,MAAM,yCAAyC,CAAC;AAC1E,OAAO,EAAE,aAAa,EAAE,MAAM,mBAAmB,CAAC;AAElD;;;GAGG;AACH,qBAAa,kBAAmB,YAAW,eAAe;IACtD,WAAW,gBAAuB;IAElC,MAAM,CAAC,CAAC,EAAE,MAAM;CAGnB"}

@@ -10,3 +10,4 @@ export interface INgxLogger {
     error(message: any, ...additional: any[]): void;
     fatal(message: any, ...additional: any[]): void;
 }
+//# sourceMappingURL=ngx-logger.interface.d.ts.map

@@ -12,3 +12,4 @@ export declare class NgxLoggerImpl implements INgxLogger {
     error(message: any, ...additional: any[]): void;
     fatal(message: any, ...additional: any[]): void;
 }
+//# sourceMappingURL=ngx-logger.impl.d.ts.map

@@ -8,3 +8,4 @@ export declare class LoggerProviderImpl implements ILoggerProvider {
     defaultImpl: NgxLoggerImpl;
     logger(k: string): NgxLoggerImpl;
 }
+//# sourceMappingURL=logger-provider.impl.d.ts.map

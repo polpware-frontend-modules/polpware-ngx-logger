@@ -33,7 +33,7 @@ class NgxLoggerModule {
     static { this.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgxLoggerModule }); }
     static { this.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({}); }
 }
-(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgxLoggerModule, [{
+(() => { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgxLoggerModule, [{
         type: NgModule,
         args: [{
                 declarations: [],

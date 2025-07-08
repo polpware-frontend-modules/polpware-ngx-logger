@@ -32,7 +32,7 @@ class NgxLoggerModule {
 }
 NgxLoggerModule.ɵfac = function NgxLoggerModule_Factory(t) { return new (t || NgxLoggerModule)(); };
 NgxLoggerModule.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgxLoggerModule });
-NgxLoggerModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [[]] });
+NgxLoggerModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({});
 (function () {
     (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgxLoggerModule, [{
             type: NgModule,

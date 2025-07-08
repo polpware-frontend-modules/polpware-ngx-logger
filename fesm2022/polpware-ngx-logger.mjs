@@ -29,20 +29,18 @@ class LoggerProviderImpl {
 }
 
 class NgxLoggerModule {
+    static { this.ɵfac = function NgxLoggerModule_Factory(t) { return new (t || NgxLoggerModule)(); }; }
+    static { this.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgxLoggerModule }); }
+    static { this.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({}); }
 }
-NgxLoggerModule.ɵfac = function NgxLoggerModule_Factory(t) { return new (t || NgxLoggerModule)(); };
-NgxLoggerModule.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgxLoggerModule });
-NgxLoggerModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({});
-(function () {
-    (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgxLoggerModule, [{
-            type: NgModule,
-            args: [{
-                    declarations: [],
-                    imports: [],
-                    exports: []
-                }]
-        }], null, null);
-})();
+(function () { (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgxLoggerModule, [{
+        type: NgModule,
+        args: [{
+                declarations: [],
+                imports: [],
+                exports: []
+            }]
+    }], null, null); })();
 
 /*
  * Public API Surface of ngx-logger

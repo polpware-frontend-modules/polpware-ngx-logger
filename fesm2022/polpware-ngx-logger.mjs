@@ -29,7 +29,7 @@ class LoggerProviderImpl {
 }
 
 class NgxLoggerModule {
-    static { this.ɵfac = function NgxLoggerModule_Factory(t) { return new (t || NgxLoggerModule)(); }; }
+    static { this.ɵfac = function NgxLoggerModule_Factory(__ngFactoryType__) { return new (__ngFactoryType__ || NgxLoggerModule)(); }; }
     static { this.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgxLoggerModule }); }
     static { this.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({}); }
 }
